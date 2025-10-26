@@ -1,0 +1,28 @@
+body{
+  background-color: lightblue;
+}
+h2,h1{
+  text-align: center;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+}
+section{
+  margin: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+header li{
+  display: inline;
+  margin: 0 10px;
+}
+header a{
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  color: #f6f6f6;
+}
+header a:hover{
+  background-color: red;
+}
