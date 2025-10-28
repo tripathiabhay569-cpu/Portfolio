@@ -1,9 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: lightblue;
+  font-family: 'Poppins',Sans-Serif;
 }
 h2,h1{
   text-align: center;
-  background-color: brown;
+  background-color: #001F3f;
   color: white;
   border-radius: 10px;
 }
@@ -11,7 +15,9 @@ section{
   margin: 30px;
   padding: 20px;
   background-color: white;
-  border-radius: 11px;
+  border-radius: 10px;
+  border: 2px solid grey;
+  box-shadow:0 4px 8px rgb(2,155,170);
 }
 header li{
   display: inline;
@@ -22,7 +28,51 @@ header a{
   border-radius: 6px;
   font-size: 17px;
   color: #f6f6f6;
+  transition: all 0.3s;
 }
 header a:hover{
-  background-color: red;
+  background-color: skyblue;
+}
+header img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 120px;
+  
+}
+section p{
+  font-weight: bold;
+}
+header{
+  background-color:#001F3F;
+  color: white;
+  border-radius: 16px;;
+  padding: 5px 0;
+}
+section a:hover{
+  background-color: skyblue;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+@media (max-width: 600px){
+  header img{
+    width: 100px;
+    height: 100px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  header a{
+    font-size: 14px;
+    padding: 4px 6px;
+  }
+  section{
+    font-size: 10px;
+    padding: 10px;
+  }
 }
